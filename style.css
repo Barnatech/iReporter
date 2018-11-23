@@ -1,0 +1,329 @@
+body{
+	font-family: Arial, sans-serf;
+	fontsize: 14px;
+	line-height: 1.5;
+	background-image: url(awesome-fantasy-rhino-wallpaper-widescreen.jpg);
+	height: 100vh;
+	
+	background-size: 100rem;
+	
+	
+	
+	
+}
+.loginpage{
+	width: 100%;
+	padding: 5% 0 0;
+
+}
+.form{
+	/*position: relative;*/
+	
+	float:center;
+	background:rgba(120, 7, 195, 0.8);
+	max-width:460px;
+	margin-left:30%;
+	padding:45px;
+	text-align:center;
+	
+}
+.form input{
+	font-family: Arial, sans-serf;
+	outline: 1;
+	background: #f2f2f2;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+.form button{
+	font-family: Arial, sans-serf;
+	text-transform: uppercase;
+	outline: 0;
+	background: rgb(76, 94, 175);
+	width: 100%;
+	border: 0;
+	padding: 15px;
+	color: #FFFF;
+	font-size: 14px;
+	cursor: pointer;
+}
+.form button:hover,.form button:active{
+	background: rgb(160, 151, 67);
+}
+.form .message a{
+	margin:15px 0 0;
+	color: aliceblue;
+	font-size: 12px;
+	
+}
+.form .message{
+	color: rgb(175, 160, 76);
+	text-decorarion: none;
+	
+}
+.form .registerform{
+	display: none;
+}
+
+
+
+/*Global*/
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+.button_1{
+	height:20px;
+	background:blue;
+	border:0;
+	padding-left:10px;
+	padding-right:10px;
+	color:white;
+}
+.dark{
+	background-color:#35424a;
+	padding:15px;
+	color:#ffffff;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+/*header*/
+
+header{
+	background-color: black;
+	color:#ffffff;
+	padding-top:30px;
+	min-height:70px;
+	border-bottom:e8491d 3px solid;
+
+}
+/*other links in the header*/
+header a{
+	color:#ffffff;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:14px;
+}
+/*header*/
+
+header li{
+	float:left;
+	display:inline;
+	padding:0 20px 0 0px;
+}
+/*branding is an id so we use the # sign*/
+header #branding{
+	float:left;
+}
+header #branding h1{
+	margin:0;
+}
+header nav{
+	float:right;
+	margin-top:10px;
+}
+/*orange color for header links*/
+header .highlight, header .current a{
+	color:#e8491d;
+
+	font-weight:bold;
+}
+header a:hover{
+	color:#cccccc;
+	font-weight:bold;
+}
+/*showcase id*/
+
+#showcase{
+	min-height:200px;
+	
+	text-align:center;
+	color:#ffffff;
+}
+#showcase h1{
+	margin-top:100px;
+	font-size:55px;
+	margin-bottom:10px;
+}
+#showcase p{
+	font-size:20px;
+}
+/* about*/
+#about{
+	min-height:200px;
+	
+	text-align:center;
+	color:#ffffff;
+}
+#about h1{
+	margin-top:100px;
+	font-size:55px;
+	margin-bottom:10px;
+}
+#about p{
+	font-size:20px;
+	max-width:50%;
+	margin-left:20%;
+}
+
+/*newsletter*/
+
+#newsletter{
+	
+	
+	padding:15px;
+	color:#ffffff;
+	background-color:black;
+}
+#newsletter form{
+	display:inline;
+	float:right;
+	margin-top:10px;
+	padding:15px;
+}
+#newsletter input{
+	padding:1px;
+	height:25px;
+	width:250px;
+}
+/*boxes*/
+#boxes{
+	margin-top:20px;
+}
+#boxes .box{
+	float:left;
+	width:30%;
+	padding:10px;
+	text-align:center;
+}
+#boxes .box h3{
+	background-color: black;
+	text-align:center;
+	color: #ffffff;
+	padding:20px;
+
+}
+
+#boxes .box button{
+	background-color: black;
+	text-align:center;
+	color: #ffffff;
+	padding:10px;
+	margin-top: 3px;
+}
+
+#boxes .box textarea{
+	background-color: #cccccc;
+	text-align:center;
+	color: #ffffff;
+	height:150px;
+	width:300px;
+	font-size: 1rem;
+}
+
+#boxes .box p{
+	background-color: black;
+	text-align:center;
+	color: #ffffff;
+	padding:20px;
+}
+#boxed .box{
+	float:left;
+	width:25%;
+	padding:10px;
+	text-align:center;
+}
+#boxed .box h3{
+	background-color: black;
+	text-align:center;
+	color: aliceblue;
+	padding:20px;
+}
+#boxed{
+	color: #ffffff;
+	margin-top:20px;
+}
+
+
+footer{
+	margin:20px;
+	color:white;
+	background-color:red;
+	padding:20px;
+	text-align:center;
+}
+
+
+/*about page
+aside#sidebar{
+	float:right;
+	width:50%;
+} 
+article#main-col{
+	float:left;
+	width:40%;
+}*/
+
+
+#showcased{
+	background-color: #35424a; 
+	
+	margin:20px;
+}
+#showcased .box{
+	float:left;
+	width:40%;
+	padding:10px;
+	text-align:center;
+	position: relative;
+}
+#showcased p{
+	
+	font-size:20px;
+}
+
+@media(max-width:750px){
+	header#branding, header nav, #newsletter h1, #newsletter form, #boxes .box, article#main-col, aside#sidebar{
+		float:none;
+		text-align:center;
+		width:100%;
+	}
+	header nav li{
+		text-align:center;
+	}
+	header{
+		padding:20px;
+	}
+
+}
+.services .box h3{
+	color: #e8491d;
+	background-color: black;
+	padding:15px;
+	max-width:100px;
+	float:center;
+	margin-left: 45%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
